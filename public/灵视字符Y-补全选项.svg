@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">灵视字符Y补全选项</title>
+  <desc id="desc">同一残缺字符的四种补全版本：正确、补多、补少、补错。</desc>
+  <defs>
+    <g id="base" fill="none" stroke="#e1bd76" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M210 38 C197 62 203 84 216 104 C228 123 228 142 213 162 C197 184 192 207 205 230 C215 248 214 265 202 284"/>
+      <circle cx="210" cy="38" r="5" fill="#e1bd76" stroke="none"/>
+      <circle cx="216" cy="104" r="4" fill="#e1bd76" stroke="none"/>
+      <circle cx="213" cy="162" r="4" fill="#e1bd76" stroke="none"/>
+      <circle cx="205" cy="230" r="4" fill="#e1bd76" stroke="none"/>
+      <path d="M210 38 C166 33 124 56 105 94 C86 132 95 177 128 203 C152 222 182 225 205 207"/>
+      <path d="M128 203 C111 218 105 240 114 259 C124 279 148 284 166 272"/>
+      <path d="M210 38 C254 45 283 74 287 108 C291 145 270 174 245 188"/>
+      <path d="M216 104 L181 88 M216 104 L246 80"/>
+      <path d="M213 162 L175 171 M213 162 L248 145"/>
+      <path d="M205 230 L172 248"/>
+      <path d="M181 88 L173 74 L191 77 Z"/>
+      <path d="M248 145 L262 138 L258 156 Z"/>
+      <path d="M114 259 L99 252 M114 259 L107 274"/>
+      <path d="M210 38 L198 54 M210 38 L224 53"/>
+    </g>
+  </defs>
+
+  <rect width="900" height="650" rx="30" fill="#0e1015"/>
+  <g fill="none" stroke="#303640" stroke-width="2">
+    <rect x="20" y="20" width="410" height="285" rx="18"/>
+    <rect x="470" y="20" width="410" height="285" rx="18"/>
+    <rect x="20" y="345" width="410" height="285" rx="18"/>
+    <rect x="470" y="345" width="410" height="285" rx="18"/>
+  </g>
+
+  <!-- ① 正确补全：完整右下轨道和短回折端 -->
+  <g transform="translate(0 0)"><use href="#base"/>
+    <g fill="none" stroke="#e1bd76" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M245 188 C268 205 281 228 275 250 C270 271 250 283 230 275"/>
+      <path d="M230 275 L218 268 M230 275 L224 288"/>
+    </g>
+  </g>
+
+  <!-- ② 补多了：正确轨道之外又多出一圈和额外分支 -->
+  <g transform="translate(450 0)"><use href="#base"/>
+    <g fill="none" stroke="#e1bd76" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M245 188 C268 205 281 228 275 250 C270 271 250 283 230 275"/>
+      <path d="M230 275 C206 294 207 315 228 323 C252 331 278 317 281 294"/>
+      <path d="M230 275 L218 268 M230 275 L224 288"/>
+      <path d="M275 250 L296 244"/>
+    </g>
+  </g>
+
+  <!-- ③ 补少了：只补上前半段，轨道没有闭合 -->
+  <g transform="translate(0 325)"><use href="#base"/>
+    <g fill="none" stroke="#e1bd76" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M245 188 C263 202 270 218 267 232"/>
+      <path d="M267 232 L255 226"/>
+    </g>
+  </g>
+
+  <!-- ④ 补错了：轨道向上回折并穿入中央区域 -->
+  <g transform="translate(450 325)"><use href="#base"/>
+    <g fill="none" stroke="#e1bd76" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M245 188 C278 177 305 187 311 208 C317 230 298 247 274 245 C255 243 246 228 252 213"/>
+      <path d="M252 213 L239 221 M252 213 L256 198"/>
+    </g>
+  </g>
+
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="320" viewBox="0 0 840 320" role="img" aria-labelledby="title desc">
+  <title id="title">加强版灵视延迟回忆字符 X 与 Y</title>
+  <desc id="desc">两个具有外环、内层回旋、节点和不对称分支的原创抽象字符。</desc>
+  <rect width="840" height="320" rx="30" fill="#0e1015"/>
+  <path d="M420 36 V282" stroke="#2d333d" stroke-width="2"/>
+  <g fill="none" stroke="#e1bd76" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- X：多层回廊 -->
+    <g transform="translate(48 38)">
+      <!-- 不规则外环，右下方留有缺口 -->
+      <path d="M139 8 C91 0 43 22 19 64 C-5 107 4 160 36 195 C68 231 119 243 164 224"/>
+      <path d="M164 224 C190 213 207 193 217 169"/>
+      <path d="M217 169 C231 135 222 96 198 68 C180 47 157 35 130 34"/>
+      <!-- 外环刻痕 -->
+      <path d="M41 42 L61 55 M18 92 L43 95 M26 159 L51 151 M91 226 L100 202 M179 34 L164 49"/>
+      <!-- 内部双层回旋 -->
+      <path d="M130 34 C91 35 61 60 56 96 C51 130 70 161 99 173 C128 185 162 174 175 149 C188 124 179 96 157 84 C136 72 112 79 103 98 C94 117 102 136 119 143 C136 150 153 141 157 126 C161 111 151 99 139 96"/>
+      <!-- 中央菱形核心 -->
+      <path d="M139 96 L154 111 L139 127 L123 111 Z"/>
+      <path d="M123 111 L107 111 M154 111 L172 111"/>
+      <!-- 顶部三叉标记 -->
+      <path d="M139 8 L128 24 M139 8 L139 27 M139 8 L151 24"/>
+      <!-- 右下断裂端 -->
+      <path d="M164 224 L151 207 M164 224 L184 215"/>
+      <circle cx="139" cy="111" r="5" fill="#e1bd76" stroke="none"/>
+    </g>
+
+    <!-- Y：逆枝轨道 -->
+    <g transform="translate(450 38)">
+      <!-- 中央不规则脊柱 -->
+      <path d="M140 12 C127 36 133 58 146 78 C158 97 158 116 143 136 C127 158 122 181 135 204 C145 222 144 239 132 258"/>
+      <circle cx="140" cy="12" r="6" fill="#e1bd76" stroke="none"/>
+      <circle cx="146" cy="78" r="5" fill="#e1bd76" stroke="none"/>
+      <circle cx="143" cy="136" r="5" fill="#e1bd76" stroke="none"/>
+      <circle cx="135" cy="204" r="5" fill="#e1bd76" stroke="none"/>
+      <!-- 左侧逆向轨道 -->
+      <path d="M140 12 C96 7 54 30 35 68 C16 106 25 151 58 177 C82 196 112 199 135 181"/>
+      <path d="M58 177 C41 192 35 214 44 233 C54 253 78 258 96 246"/>
+      <!-- 右侧开放轨道 -->
+      <path d="M140 12 C184 19 213 48 217 82 C221 119 200 148 175 162"/>
+      <path d="M175 162 C198 179 211 202 205 224 C200 245 180 257 160 249"/>
+      <!-- 不对称分支 -->
+      <path d="M146 78 L111 62 M146 78 L176 54"/>
+      <path d="M143 136 L105 145 M143 136 L178 119"/>
+      <path d="M135 204 L102 222 M135 204 L164 220"/>
+      <!-- 三角节点与末端刻痕 -->
+      <path d="M111 62 L103 48 L121 51 Z"/>
+      <path d="M178 119 L192 112 L188 130 Z"/>
+      <path d="M44 233 L29 226 M44 233 L37 248"/>
+      <path d="M205 224 L220 218 M205 224 L211 239"/>
+      <path d="M140 12 L128 28 M140 12 L154 27"/>
+    </g>
+  </g>
+  <g fill="#a18d68" font-family="Georgia, serif" font-size="22" text-anchor="middle">
+    <text x="630" y="300">Y</text>
+  </g>
+</svg>
