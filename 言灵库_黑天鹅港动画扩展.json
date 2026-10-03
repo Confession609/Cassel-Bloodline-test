@@ -1,0 +1,123 @@
+{
+  "title": "黑天鹅港逃亡段落·动画扩展言灵库",
+  "version": "1.0",
+  "scope": "龙族II 悼亡者之瞳动画第二季第1集《零号》及相关官方动画设定",
+  "sourcePolicy": {
+    "novel": "原著小说明确记载",
+    "animationOfficial": "动画官方资料或动画对白明确出现",
+    "animationVisualInference": "动画镜头表现明确，但名称或完整效果需要根据画面推定",
+    "secondaryAnalysis": "二次解析，仅作线索，不作为原著定名依据"
+  },
+  "entries": [
+    {
+      "name": "空间断绝",
+      "sceneRole": "追击方",
+      "sourceType": "animationVisualInference",
+      "episode": "第二季第1集《零号》",
+      "status": "动画镜头出现；名称来自动画场景整理，待官方设定集确认",
+      "effect": "切断或压缩目标之间的有效距离，改变近身交战中的间合与攻击路径",
+      "classification": "空间开辟",
+      "confidence": "中",
+      "testTags": ["距离", "空间", "切断", "突袭"]
+    },
+    {
+      "name": "钢铁共鸣",
+      "sceneRole": "追击方",
+      "sourceType": "animationVisualInference",
+      "episode": "第二季第1集《零号》",
+      "status": "动画对白/镜头整理中出现；官方动画用语集暂未核对到该条目，具体施术者与标准序号未确认",
+      "effect": "使骨骼、毛发或其他身体结构呈现钢铁化，并可形成钢铁鞭状攻击；动画中还出现以契约强化钢铁的表现",
+      "classification": "自体炼成",
+      "confidence": "中高",
+      "testTags": ["钢铁", "骨骼", "毛发", "契约", "强化"]
+    },
+    {
+      "name": "蒸发",
+      "sceneRole": "追击方",
+      "sourceType": "animationVisualInference",
+      "episode": "第二季第1集《零号》",
+      "status": "动画效果可确认；名称与完整机制暂以动画场景整理为准",
+      "effect": "使目标或接触区域快速升温并发生沸腾、蒸发式破坏",
+      "classification": "元素掌握",
+      "confidence": "中",
+      "testTags": ["高温", "沸腾", "蒸发", "接触攻击"]
+    },
+    {
+      "name": "石化",
+      "sceneRole": "追击方",
+      "sourceType": "animationVisualInference",
+      "episode": "第二季第1集《零号》",
+      "status": "动画效果可确认；尚未在原著言灵表中核对到同名条目",
+      "effect": "拳击或接触命中后，使目标局部或整体凝固、硬化，呈现石化效果",
+      "classification": "元素掌握",
+      "confidence": "中",
+      "testTags": ["凝固", "硬化", "拳击", "石化"]
+    },
+    {
+      "name": "转覆",
+      "sceneRole": "追击方",
+      "sourceType": "animationVisualInference",
+      "episode": "第二季第1集《零号》",
+      "status": "动画对白/效果整理中有对应；官方动画用语集暂未核对到该条目，标准序号未确认",
+      "effect": "改变局部重力或受力方向，使上下、天地与行动轨迹发生反转；集中作用时可扭曲人体姿态",
+      "classification": "元素掌握",
+      "confidence": "中高",
+      "testTags": ["重力", "反转", "失衡", "空间方向"]
+    },
+    {
+      "name": "零时间",
+      "sceneRole": "追击方首领/关联战斗方",
+      "sourceType": "animationOfficial",
+      "episode": "第二季第1集《零号》；官方动画用语集",
+      "status": "官方动画资料明确收录；言灵No.84",
+      "effect": "令自身周围领域内的时间流速减慢，使领域外观察者感觉施术者高速行动",
+      "classification": "时间因果",
+      "number": 84,
+      "bloodlineSource": "黑龙王尼德霍格",
+      "confidence": "高",
+      "testTags": ["时间", "减速", "领域", "高速行动"]
+    },
+    {
+      "name": "冥照",
+      "sceneRole": "追击方关联角色/能力被复制",
+      "sourceType": "animationOfficial",
+      "episode": "第二季第1集《零号》；官方动画用语集",
+      "status": "官方动画资料明确收录；言灵No.69",
+      "effect": "操纵领域内的光线折射与轨迹，使施术者融入环境；移动时留下黑雾般残像，但仍可被物理攻击命中",
+      "classification": "自体炼成",
+      "number": 69,
+      "bloodlineSource": "天空与风之龙王",
+      "confidence": "高",
+      "testTags": ["折射", "隐匿", "残像", "光学"]
+    }
+  ],
+  "relatedUnindexedEffects": [
+    {
+      "name": "零号的四元素统御",
+      "sceneRole": "逃亡方，不是追击人员",
+      "sourceType": "animationVisualInference",
+      "episode": "第二季第1集《零号》",
+      "status": "动画中出现雷、火、空气、冰等复合元素控制；未强行拆分为单一言灵",
+      "effect": "以龙文命令形式同时调动多种自然元素，表现为超出普通言灵分类的复合权能",
+      "confidence": "中",
+      "testTags": ["雷", "火", "空气", "冰", "复合权能"]
+    }
+  ],
+  "sources": [
+    {
+      "type": "officialAnimationStory",
+      "url": "https://www.aniplex.co.jp/lineup/ryuzoku_2/story/",
+      "note": "官方页面确认第1集包含黑天鹅港逃亡及与卡塞尔学院执行部的战斗，但未逐项列出追击方言灵名称。"
+    },
+    {
+      "type": "officialAnimationGlossary",
+      "url": "https://ryuzoku-anime.com/glossary/",
+      "note": "官方动画用语集明确收录零时间、冥照等条目及其效果。"
+    },
+    {
+      "type": "secondaryScene整理",
+      "url": "https://note.com/chrone/n/n79590b4dfdf6",
+      "note": "用于定位动画镜头中的空间断绝、钢铁共鸣、蒸发、石化、转覆等名称；其中部分名称在该资料中也被标注为推定。"
+    }
+  ]
+}
